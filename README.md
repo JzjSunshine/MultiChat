@@ -51,7 +51,6 @@ cd MultiChat
 首先安装 Gradio：`pip install gradio`，Streamlit: `pip install streamlit steamlit-chat`
 然后运行仓库中的 [multichat_gradio.py](multichat_gradio.py)或者[multichat_streamlit.py](multichat_streamlit.py)：
 
-```
 ```shell
 python multichat_gradio.py
 ```
