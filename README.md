@@ -3,7 +3,7 @@ MultiChat：开源多模态对话语言模型 | An open multimodal dialogue lang
 
 ## 介绍
 
-MultiChat 是一个开源的、支持视觉（图片）的对话语言模型，具有约74亿参数，参考了Blip2和ChatGLM-6B。目前MultiChat支持视觉和文本的对话，我们后续会开源支持视觉、文本、语音的多模态对话模型。
+MultiChat 是一个开源的、支持视觉（图片）的对话语言模型，具有约70+亿参数，参考了Blip2和ChatGLM-6B。目前MultiChat支持视觉和文本的对话，我们后续会开源支持视觉、文本、语音的多模态对话模型。
 
 由于仅使用了4M左右的中文图文对进行模型训练，目前有较多局限性，包括MultiChat视觉感知能力及ChatGLM本身的局限性。我们会进行进一步优化。
 
