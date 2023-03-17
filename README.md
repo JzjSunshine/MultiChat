@@ -68,5 +68,3 @@ streamlit run multichat_streamlit.py
 
 本仓库的代码依照 [Apache-2.0](LICENSE) 协议开源，并使用了 ChatGLM-6B 模型的权重，相关使用则均需要遵循 [Model License](MODEL_LICENSE)。
 
-## 单位
-中国科学院自动化研究所 听觉模型与认知计算
