@@ -38,16 +38,18 @@ MultiChat 是一个开源的、支持视觉（图片）的对话语言模型，�
 
 ### Demo
 
-我们提供了一个基于 [Gradio](https://gradio.app) 的网页版 Demo 、基于 [Streamlit]的网页版Demo。使用时首先需要下载本仓库：
+我们提供了一个基于 [Gradio](https://gradio.app) 的网页版 Demo 、基于 [Streamlit](https://streamlit.io/)的网页版Demo。使用时首先需要下载本仓库：
 ```shell
 git clone https://github.com/phellonchen/MultiChat.git
 cd MultiChat
+```
 
 #### 网页版 Demo
 <!--![web-demo]web-demo.png)-->
 <img src="images/web_demo.png" width="50%" align="middle">
 
-首先安装 Gradio：`pip install gradio`，Streamlit: `pip install streamlit steamlit-chat`，然后运行仓库中的 [multichat_gradio.py](multichat_gradio.py)或者[multichat_streamlit.py](multichat_streamlit.py)：
+首先安装 Gradio：`pip install gradio`，Streamlit: `pip install streamlit steamlit-chat`
+然后运行仓库中的 [multichat_gradio.py](multichat_gradio.py)或者[multichat_streamlit.py](multichat_streamlit.py)：
 
 ```
 ```shell
