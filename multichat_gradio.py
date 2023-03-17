@@ -7,8 +7,8 @@ import re
 from transformers import AutoModel, AutoProcessor
 
 
-processor = AutoProcessor.from_pretrained("/raid/cfl/pretraining/en/demo/multichat/checkpoints/multichat", trust_remote_code=True)
-model = AutoModel.from_pretrained("/raid/cfl/pretraining/en/demo/multichat/checkpoints/multichat", trust_remote_code=True).hafl().cuda()
+processor = AutoProcessor.from_pretrained("phellonchen/multichat", trust_remote_code=True)
+model = AutoModel.from_pretrained("phellonchen/multichat", trust_remote_code=True).hafl().cuda()
 model = model.eval()
 
 MAX_TURNS = 20
