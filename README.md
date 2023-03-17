@@ -69,5 +69,5 @@ streamlit run multichat_streamlit.py
 本仓库的代码依照 [Apache-2.0](LICENSE) 协议开源，并使用了 ChatGLM-6B 模型的权重，相关使用则均需要遵循 [Model License](MODEL_LICENSE)。
 
 ## 致谢
-感谢Blip2(https://github.com/salesforce/LAVIS/tree/main/projects/blip2)以及ChatGLM(https://github.com/THUDM/ChatGLM-6B)
+感谢[Blip2](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)以及[ChatGLM](https://github.com/THUDM/ChatGLM-6B)
 
