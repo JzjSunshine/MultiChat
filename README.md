@@ -18,11 +18,22 @@ MultiChat 是一个开源的、支持视觉（图片）的对话语言模型，�
 >>> response, history = model.chat(processor, None, "你好", history=[])
 >>> print(response)
 你好👋!我是人工智能助手 MultiChat,很高兴见到你,欢迎问我任何问题。
->>> img_url = 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/demo.jpg' 
+>>> img_url = 'https://github.com/phellonchen/MultiChat/blob/main/images/chafing_dish.png' 
 >>> raw_image = Image.open(requests.get(img_url, stream=True).raw).convert('RGB')
 >>> question = "图里有什么？"
 >>> history, output = model.chat(processor, raw_image, question, history)
-
+图中有一堆切好的菜和肉,还有一大锅煮的热气腾腾的汤。
+>>> question = "这是火锅吗?"
+>>> history, output = model.chat(processor, raw_image, question, history)
+根据图片的描述,这是一道火锅,锅中煮着热气腾腾的汤,配有切好的菜和肉。火锅是中国传统的特色美食之一,通常由锅底、食材、调料等多个部分组成。
+>>> question = "推荐几家北京的火锅店"
+>>> history, output = model.chat(processor, raw_image, question, history)
+北京有很多火锅店,以下是几家比较受欢迎的
+1.海底捞火锅:海底捞是一家知名的火锅品牌在北京拥有多家分店。它的服务非常好,食材新鲜,口味也很受欢迎。
+2.小天鹅火锅:小天鹅是一家以清汤火锅为主的品牌,它的锅底清淡不辣,适合喜欢清淡口味的人。它的菜品也非常丰富,价格也比较实重。
+3.川妹子火锅:川妹子是一家以麻辣火锅为主的品牌,它的口味非常正宗,食材也非常新鲜。它的分店遍布北京的各个区域,是一家比较受欢迎的火锅品牌。
+4.老北京涮羊肉火锅:老北京涮羊肉火锅是北京传统的火锅品牌之一.它的锅底和调料都非常独特,食材也非常丰富。它的店面装修比较有氛围,适合和朋友家人一起享用。
+以上是一些比较受欢迎的北京火锅店,可以根据自己的口味和偏好进行选择。
 ```
 
 ### Demo
