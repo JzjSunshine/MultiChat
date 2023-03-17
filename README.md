@@ -44,7 +44,9 @@ git clone https://github.com/phellonchen/MultiChat.git
 cd MultiChat
 
 #### 网页版 Demo
-![web-demo](images/web-demo.png)
+<!--![web-demo]web-demo.png)-->
+<img src="images/web-demo.png" width="50%" align="middle">
+
 首先安装 Gradio：`pip install gradio`，Streamlit: `pip install streamlit steamlit-chat`，然后运行仓库中的 [multichat_gradio.py](multichat_gradio.py)或者[multichat_streamlit.py](multichat_streamlit.py)：
 
 ```
