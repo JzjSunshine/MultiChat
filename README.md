@@ -61,8 +61,6 @@ streamlit run multichat_streamlit.py
 
 程序会运行一个 Web Server，并输出地址。在浏览器中打开输出的地址即可使用。
 
-## MultiChat 示例
-
 
 ## 协议
 
