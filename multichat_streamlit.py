@@ -23,9 +23,9 @@ device = 'cpu'
 def load_model():
     processor = AutoProcessor.from_pretrained("/raid/cfl/pretraining/en/demo/multichat/checkpoints/multichat", trust_remote_code=True)
     # use gpu
-    # model = AutoModel.from_pretrained("/raid/cfl/pretraining/en/demo/multichat/checkpoints/multichat", trust_remote_code=True).half().to(device)
+    model = AutoModel.from_pretrained("/raid/cfl/pretraining/en/demo/multichat/checkpoints/multichat", trust_remote_code=True).half().to(device)
     # use cpu
-    model = AutoModel.from_pretrained("/raid/cfl/pretraining/en/demo/multichat/checkpoints/multichat", trust_remote_code=True).float().to(device)
+    # model = AutoModel.from_pretrained("/raid/cfl/pretraining/en/demo/multichat/checkpoints/multichat", trust_remote_code=True).float().to(device)
     return model, processor
 
 def MulitChatgpt(image, query, history, model, processor):
