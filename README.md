@@ -8,7 +8,7 @@ MultiChat 是一个开源的、支持视觉（图片）的对话语言模型，�
 由于仅使用了4M左右的中文图文对进行模型训练，目前有较多局限性，包括MultiChat视觉感知能力及ChatGLM本身的局限性。
 
 ## 使用方式
-使用 pip 安装依赖：`pip install -r requirements.txt`，其中 `transformers` 库版本推荐为 `4.26.1`，但理论上不低于 `4.23.1` 即可。
+使用 pip 安装依赖：`pip install -r requirements.txt`，其中 `transformers` 库版本推荐为 `4.27.1`。
 
 ### 代码调用
 ```python
